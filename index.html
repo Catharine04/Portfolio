@@ -11,6 +11,20 @@
 
     <!-- box icons -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <style>
+        @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-20px);
+    }
+    60% {
+      transform: translateY(-10px);
+    }
+  }
+    </style>
 </head>
 
 <body>
@@ -60,9 +74,11 @@
         </div>
 
         <div class="home-imgHover animate__bounce">
-            <img src="images/owl.svg" alt="" style="    background: transparent;
+            <img class="bouncing-svg" src="images/owl.svg" alt="" style="    background: transparent;
             width: 366px;
-            margin-left: 58px;">
+            margin-left: 58px;
+            animation: bounce 2s infinite;
+">
 
         </div>
         <span class="animate__bounce home-img" style="--i:7;"></span>

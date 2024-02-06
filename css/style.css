@@ -99,6 +99,7 @@ section {
 .home-content {
     max-width: 60rem;
     z-index: 99;
+    margin-top: 11rem;
 }
 
 .home-content h1 {
@@ -240,7 +241,7 @@ section {
 }
 
 .home-sci {
-    position: absolute;
+    margin-top: 2rem;
     bottom: 4rem;
     width: 170px;
     display: flex;
